@@ -1,7 +1,7 @@
 const http = require('http');
 const server = http.createServer();
 
-const PORT = 3000;
+const PORT = 80;
 
 server.on('request', (req, res) => {
     if (req.method === 'POST') {
